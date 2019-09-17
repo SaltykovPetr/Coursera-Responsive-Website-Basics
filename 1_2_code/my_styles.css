@@ -1,5 +1,5 @@
 body{
-	background: orange;
+	background: #orange;
 	color: white;
 }
 
@@ -33,7 +33,7 @@ h1{
 	margin-bottom: 50px;
 	text-align: justify;
 	background: pink;
-	font-family: monospace
+	font-family: monospace, serif
 }
 
 .greenlink:hover{
@@ -54,7 +54,7 @@ body{
 
 @media (min-width:1000px) {
 body{
-	background: blue;
+	background: #blue;
 	}
 .responsive{
 	display: inline-block;
