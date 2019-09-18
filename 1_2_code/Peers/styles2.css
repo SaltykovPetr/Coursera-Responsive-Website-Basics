@@ -1,0 +1,62 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+/*===========Reset all margin and padding =======================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*===========Style the body tag=======================*/
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;/*Make h1 vertically allign*/
+	align-items: center;/*Make h1 horizontally allign*/
+	overflow: hidden;/*Overflow Hidden*/
+	background: black;
+}
+h1{
+	position: relative;
+	font-size: 45px;/*Increase The Font size*/
+	font-family: serif;/*Change the font-family*/
+	color: grey;/*Change the color of the h1 text*/
+}
+/*============================Sudo Tag============================*/
+h1:before{
+	overflow: hidden;
+	position: absolute;
+	content: 'Responsive website development and design';
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: red;
+	animation: animate 20s;/*10s is the animation tag*/
+}
+/*=============================Access the animation=============================*/
+@keyframes animate{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+/*============================Make the site Responsive============================*/
+@media screen and (max-width: 1000px){
+	h1{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 600px){
+	h1{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 20px;
+	}
+}

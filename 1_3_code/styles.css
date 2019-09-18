@@ -1,0 +1,28 @@
+ /** defining BODY style */
+body{
+	 /** making background black */
+	background: black;
+}
+
+ /** defining H1 style */
+h1{
+	/** selecting font style */
+	font-family: serif; 
+	/** putting a narrow border around h1 */
+	border: 1px solid red;
+	/** setting color of the text */
+	color: red;
+	/** setting the size of the h1 areea */
+	width: 600px;
+}
+
+ /** defining H1:hover style */
+h1:hover{
+	/** background changes */
+	background: gray;
+	/** text color changes */
+	color: black;
+	/** border become some bolder and color changes  */
+	border: 3px solid white;
+}
+

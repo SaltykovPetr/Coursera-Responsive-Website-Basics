@@ -1,0 +1,14 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+/* Style for h1 tag*/
+h1{
+	font-family: sans-serif; /* San-serif font family */
+	color: #fff; /* white color text */
+	padding: 20px; /* inner space 20px */
+	background: linear-gradient(to right, #141e30, #243b55); /* linear-gradient background */
+	text-align: center; /* align text to center */
+	box-shadow: 2px 2px 2px gray; /* shadow for the h1 text box */
+	transform: translateY(150px); /* translate the text 150pixels in y direction */
+	transition: 2s; /* take 2 seconds to load */
+}
