@@ -1,11 +1,17 @@
 /** This is a comment that the browser will ignore,
 * Put your CSS code into this file
 */
-h1 {
-  /** this propery turns the grid around the text blue*/
-  background:blue;
-  /** this propery turns the text itself yellow*/
-  color: yellow;
-  /** this propery turns the font style to monospace*/
-  font-family:monospace;
+
+
+body {
+  background-color: lightblue;
 }
+/* 1 This is for set background color*/
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+/* 2  color: navy is for heading color is navy & margin-left: is use for select margin*/
+
+

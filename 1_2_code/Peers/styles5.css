@@ -1,0 +1,23 @@
+/** defining BODY style */
+body{
+	 /** making background white */
+	background: white;
+}
+
+ /** defining H1 style */
+h1{
+	/** selecting font style */
+	font-family: sans-serif; 
+	/** setting color of the text */
+	color: red;
+}
+
+ /** defining H1:hover style */
+h1:hover{
+	/** background changes */
+	background: grey;
+	/** text color changes */
+	color: blue;
+	/** border become some bolder and color changes  */
+	border: 2px solid white;
+}
