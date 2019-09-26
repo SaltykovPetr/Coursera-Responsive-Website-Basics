@@ -12,21 +12,16 @@
 		 The html function sets the html content
 		 of an element
 	-->
-	<h1 id="title" onclick="changeHello();">
- 		Hello
- 	</h1>
+	<h1 id="title" onclick="changeHello();">Hello</h1>
 
 	<script type="text/javascript">	
 	function changeHello(){
-		if ($('#title').html()== 'Hello') 
-			{
-				$('#title').html('Goodbye');
-				} 
-			else 
-			{
-				$('#title').html('Hello');
-				};
-		}
+		if ($('#title').html()== 'Hello') {
+			$('#title').html('Goodbye');
+		} else {
+			$('#title').html('Hello');
+		};
+	}
 	
 	</script>	
 
